@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: #1D1D1D;
+    font-family: 'Roboto';
+}
+
+#content{
+    z-index: 0;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 10px;
+    bottom: 10px;
+    border: 1px solid #FFF;
+    background-color: #000;
+}
+
+#dimmer{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1D1D1DBB;
+
+}
+
+#main-content{
+    z-index: -2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 70%;
+    background-image: url("./sources/mailBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#additional-info{
+    position: absolute;
+    bottom: 0;
+    height: 30%;
+}
+
+.critical-info{
+    color: #EC3D40;
+}
+
+.content-elem{
+    color: #CCC;
+}
+
+p{
+    margin: 18px;
+}
